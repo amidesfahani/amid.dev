@@ -42,7 +42,7 @@ const Project = ({title, description, tech, link, image, className}) => (
 				>
 					<div className="w-full h-full align-middle">
 						<picture>
-							<img className="object-cover" sizes="(min-width: 700px) 700px, 100vw" decoding="async" src={"/static/" + image} srcset={"/static/" + image +  " 700w"} alt={title} width="700" height="438" />
+							<img className="object-cover" sizes="(min-width: 700px) 700px, 100vw" decoding="async" src={"/static/" + image} srcSet={"/static/" + image +  " 700w"} alt={title} width="700" height="438" />
 						</picture>
 					</div>
 				</a>

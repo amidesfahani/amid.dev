@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Header, Hero, About, Experience, Projects, Services, Contact, Loader } from "./components";
 import { IconGitHub, IconInstagram, IconLinkedin, IconTwitter } from "./components/icons";
+import 'react-tooltip/dist/react-tooltip.css'
 import "./App.css";
 
 function App() {
