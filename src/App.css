@@ -1,0 +1,19 @@
+
+.tab-highlight {
+	transform: translateY(calc(0 * var(--tab-height)));
+	transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
+}
+
+.Experience__panel--selected {
+	animation-name: fadeIn;
+	animation-duration: 250ms;
+	animation-timing-function: linear;
+}
+
+.react-tabs__tab--selected {
+	@apply text-primary-400;
+}
+
+.react-tabs {
+	@apply w-full;
+}
