@@ -31,7 +31,7 @@ function Header() {
 						</Link>
 					</li>
 					<li>
-						<Link className="rounded bg-primary-600 p-4 text-primary-200 transition-all duration-500 hover:bg-primary-500 hover:text-white" to="contactSection" spy={true} smooth={true} offset={-120} duration={500}>
+						<Link className="cursor-pointer rounded bg-primary-600 p-4 text-primary-200 transition-all duration-500 hover:bg-primary-500 hover:text-white" to="contactSection" spy={true} smooth={true} offset={-120} duration={500}>
 							Contact me
 						</Link>
 					</li>
