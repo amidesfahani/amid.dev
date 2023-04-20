@@ -31,9 +31,9 @@ function Header() {
 						</Link>
 					</li>
 					<li>
-						<a href="#" className="rounded bg-primary-600 p-4 text-primary-200 transition-all duration-500 hover:bg-primary-500 hover:text-white">
+						<Link className="rounded bg-primary-600 p-4 text-primary-200 transition-all duration-500 hover:bg-primary-500 hover:text-white" to="contactSection" spy={true} smooth={true} offset={-120} duration={500}>
 							Contact me
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</div>
