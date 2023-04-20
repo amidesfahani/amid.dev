@@ -1,3 +1,6 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/amidesfahani/v1/main/src/images/logo.png" width="100" />
+</div>
 <h1 align="center">
   amid.dev - v1
 </h1>
