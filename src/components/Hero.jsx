@@ -5,9 +5,9 @@ function Hero() {
 	return (
 		<>
 			<div className="mb-6 text-primary-400">Hi, my name is</div>
-			<h1 className="text-3xl md:text-6xl font-bold text-primary-100">Amid Esfahani</h1>
-			<h2 className="mt-3 text-3xl md:text-6xl font-bold text-primary-300">Senior Full Stack Developer</h2>
-			<p className="mt-6 text-sm md:text-lg">I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences.</p>
+			<h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary-100">Amid Esfahani</h1>
+			<h2 className="mt-3 text-3xl md:text-5xl lg:text-6xl font-bold text-primary-300">Senior Full Stack Developer</h2>
+			<p className="mt-6 text-sm md:text-base lg:text-lg">I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences.</p>
 			<div className="mt-8">
 				<ul className="flex w-full list-none flex-row items-center justify-start space-x-4">
 					<li>

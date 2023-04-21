@@ -5,7 +5,11 @@
 }
 
 .react-tabs__tab-panel {
-	@apply block visible md:hidden;
+	@apply lg:hidden lg:invisible;
+}
+
+.Experience__panel--selected {
+	@apply visible block;
 }
 
 .Experience__panel--selected {

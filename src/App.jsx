@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Head, Header, Hero, About, Experience, Projects, Services, Contact, Loader } from "./components";
 import { IconGitHub, IconInstagram, IconLinkedin, IconTwitter } from "./components/icons";
-import 'react-tooltip/dist/react-tooltip.css'
+import "react-tooltip/dist/react-tooltip.css";
 import "./App.css";
 
 function App() {
@@ -28,35 +28,35 @@ function App() {
 	return (
 		<>
 			<Head />
-			<div className="bg-gray-900 text-gray-400 font-sans min-h-full">
+			<div className="min-h-full bg-gray-900 font-sans text-gray-400">
 				<div className="flex min-h-screen flex-col">
 					<Header />
 					{isLoading && isHome ? (
 						<Loader finishLoading={() => setIsLoading(false)} />
 					) : (
 						<div id="content">
-							<main className="min-h-screen w-full max-w-screen-2xl py-2 px-8 md:py-52 md:px-40 leading-normal">
-								<section id="heroSection" className="flex flex-col justify-center mx-auto min-h-screen max-w-250">
+							<main className="min-h-screen w-full max-w-screen-2xl py-2 px-8 leading-normal lg:px-20 xl:px-40">
+								<section id="heroSection" className="mx-auto flex min-h-screen max-w-250 flex-col justify-center">
 									<Hero />
 								</section>
 
-								<section id="aboutSection" className="flex flex-col justify-center py-16 md:py-0 mx-auto min-h-screen max-w-250">
+								<section id="aboutSection" className="mx-auto flex min-h-screen max-w-250 flex-col justify-center py-16 xl:py-0">
 									<About />
 								</section>
 
-								<section id="experienceSection" className="flex flex-col justify-center py-16 md:py-0 mx-auto min-h-screen max-w-250">
+								<section id="experienceSection" className="mx-auto flex min-h-screen max-w-250 flex-col justify-center py-16 lg:py-0">
 									<Experience />
 								</section>
 
-								<section id="projectsSection" className="flex flex-col justify-center py-16 md:py-0 mx-auto min-h-screen max-w-250">
+								<section id="projectsSection" className="mx-auto flex min-h-screen max-w-250 flex-col justify-center py-16 lg:py-0">
 									<Projects />
 								</section>
 
-								<section id="servicesSection" className="flex flex-col justify-center py-16 md:py-0 mx-auto min-h-screen max-w-250">
+								<section id="servicesSection" className="mx-auto flex min-h-screen max-w-250 flex-col justify-center py-16 lg:py-0">
 									<Services />
 								</section>
 
-								<section id="contactSection" className="flex flex-col justify-center py-16 md:py-0 mx-auto mt-40 max-w-250">
+								<section id="contactSection" className="mx-auto mt-40 flex max-w-250 flex-col justify-center py-16 lg:py-0">
 									<Contact />
 								</section>
 							</main>
