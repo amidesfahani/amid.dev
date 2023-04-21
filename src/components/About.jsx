@@ -3,14 +3,14 @@ import React from "react";
 function About() {
 	return (
 		<>
-			<div className="flex items-start justify-between">
+			<div className="flex flex-col md:flex-row items-start justify-between">
 				<div className="flex flex-col items-start justify-start">
-					<h2 className="relative mb-5 flex w-full items-center text-2xl font-bold text-primary-400 after:relative after:ml-4 after:block after:h-px after:w-80 after:bg-gray-600">About me</h2>
-					<p className="mt-4 max-w-lg text-lg">Hello! My name is Amid and I am Software Developer. My interest in web development started back in 2006 when I decided to try editing html pages — turns out hacking a html page taught me a lot about HTML & CSS!</p>
-					<p className="mt-4 max-w-lg text-lg">I also teach programming these days. Especially for those interested in Python.</p>
+					<h2 className="relative mb-5 flex w-full items-center text-2xl font-bold text-primary-400 whitespace-nowrap after:relative after:ml-4 after:block after:h-px after:w-full md:after:w-80 after:bg-gray-600">About me</h2>
+					<p className="mt-4 max-w-lg text-base md:text-lg">Hello! My name is Amid and I am Software Developer. My interest in web development started back in 2006 when I decided to try editing html pages — turns out hacking a html page taught me a lot about HTML & CSS!</p>
+					<p className="mt-4 max-w-lg text-base md:text-lg">I also teach programming these days. Especially for those interested in Python.</p>
 					<div className="mt-5">
 						<h3>Technologies I’ve been working with:</h3>
-						<ul className="mt-5 grid list-none grid-cols-4 gap-5 text-sm">
+						<ul className="mt-8 md:mt-5 text-xs md:text-sm grid list-none grid-cols-3 md:grid-cols-4 gap-5">
 							<li className="relative pl-5 before:absolute before:left-0 before:text-primary-400 before:content-['▹']">PHP</li>
 							<li className="relative pl-5 before:absolute before:left-0 before:text-primary-400 before:content-['▹']">Python</li>
 							<li className="relative pl-5 before:absolute before:left-0 before:text-primary-400 before:content-['▹']">.Net</li>
@@ -33,7 +33,7 @@ function About() {
 						</ul>
 					</div>
 				</div>
-				<div className="relative max-w-xs">
+				<div className="relative max-w-xs mx-auto mt-12 md:m-0">
 					<div
 						className="relative w-full rounded
 					bg-primary-400 before:absolute before:top-0 before:left-0 before:h-full before:w-full

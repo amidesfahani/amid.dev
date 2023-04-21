@@ -4,6 +4,10 @@
 	transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
 }
 
+.react-tabs__tab-panel {
+	@apply block visible md:hidden;
+}
+
 .Experience__panel--selected {
 	animation-name: fadeIn;
 	animation-duration: 250ms;
@@ -16,4 +20,8 @@
 
 .react-tabs {
 	@apply w-full;
+}
+
+.blurry #content {
+	@apply blur brightness-75 select-none pointer-events-none;
 }

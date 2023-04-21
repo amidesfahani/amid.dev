@@ -5,7 +5,7 @@ function Services() {
 		<>
 			<div className="flex flex-col items-start justify-start">
 				<h2 className="relative mb-5 flex w-full items-center whitespace-nowrap text-2xl font-bold text-primary-400 after:relative after:ml-4 after:block after:h-px after:w-full after:bg-gray-600">My Services</h2>
-				<ul className="relative mt-4 grid list-none grid-cols-3 gap-4 p-0">
+				<ul className="relative mt-4 grid list-none grid-cols-1 gap-y-10 md:gap-4 p-0 md:grid-cols-3">
 					<li className="relative">
 						<div className="relative flex h-full items-start justify-between overflow-auto rounded bg-gray-800 px-8 py-7 shadow shadow-primary-700">
 							<header>
